@@ -6,7 +6,10 @@
     "declaration": true,
     "module": "ES2020",
     "moduleResolution": "node",
+    "noEmit": true,
     "strictNullChecks": true,
+    "noImplicitAny": true,
+    "verbatimModuleSyntax": true,
     "noUnusedLocals": true
   },
   "include": ["./**/*"]
